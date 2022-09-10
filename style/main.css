@@ -1,3 +1,41 @@
 body {
-    background-color: lightblue;
-     }
+    background-color: rgb(232, 243, 247);
+}
+
+.blogbody {
+    margin: 10px;
+    padding: 10px;
+}
+
+.nav {
+    background-color: aqua;
+    list-style-type: none;
+    text-align: center;
+    margin: 20px;
+    padding: 0%;
+}
+
+.nav li {
+    display: inline-block;
+    /*display: inline;*/
+    /*display: block;*/
+    font-size: 20px;
+    padding: 20px;
+}
+
+li.gallery {
+    width: 100%;
+    height: auto;
+}
+
+/*div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}*/
