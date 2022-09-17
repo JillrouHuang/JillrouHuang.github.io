@@ -4,32 +4,61 @@ body {
 }
 
 .blogbody1 {
+    background-color: aqua;
     margin: 2px;
     padding: 2px;
+    display: flex;
+    flex-direction: row;
 }
 
 .content1 {
-    background-color: aqua;
+
     list-style-type: none;
     text-align: left;
-    /*margin: 10px;*/
     padding: 20px;
     font-size: 15pt;
 }
 
 .img1 {
     float: left;
-    padding: 20px;
+    padding: 10px;
 }
 
 .blogbody2 {
-    margin: auto;
-    padding: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+    padding: 5px;
+    justify-content: flex-end;
 }
 
 .content2 {
-    background-color: antiquewhite;
-    padding: 20px;
+    margin: 20px;
+    text-align: right;
+    font-size: 15pt;
+}
+
+.img2 {
+    float: right;
+    padding: 10px;
+}
+
+.pressme {
+    display: inline-block;
+    background-color: blue;
+    color: darkgrey;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.pressme:hover {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer
+}
+
+.pressme:active {
+    color: darkblue;
 }
 
 /* Smartphones (portrait and landscape) ----------- */
