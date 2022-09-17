@@ -3,40 +3,46 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.blogbody {
-    margin: 10px;
-    padding: 10px;
+.blogbody1 {
+    margin: 2px;
+    padding: 2px;
 }
 
-.nav {
+.content1 {
     background-color: aqua;
     list-style-type: none;
-    text-align: center;
-    margin: 20px;
-    padding: 0%;
+    text-align: left;
+    /*margin: 10px;*/
+    padding: 20px;
+    font-size: 15pt;
 }
 
-.nav li {
-    display: inline-block;
-    /*display: inline;*/
-    /*display: block;*/
-    font-size: 20px;
+.img1 {
+    float: left;
     padding: 20px;
 }
 
-li.gallery {
-    width: 100%;
-    height: auto;
+.blogbody2 {
+    margin: auto;
+    padding: auto;
 }
 
-/*div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
+.content2 {
+    background-color: antiquewhite;
+    padding: 20px;
 }
 
-div.gallery img {
-    width: 100%;
-    height: auto;
-}*/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+    /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    /* Styles */
+}
