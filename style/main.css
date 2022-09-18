@@ -1,4 +1,4 @@
-body {
+.bd1 {
     background-color: rgb(232, 243, 247);
     font-family: 'Ubuntu', sans-serif;
 }
@@ -12,7 +12,6 @@ body {
 }
 
 .content1 {
-
     list-style-type: none;
     text-align: left;
     padding: 20px;
@@ -29,37 +28,76 @@ body {
     flex-direction: row;
     background-color: antiquewhite;
     padding: 5px;
-    justify-content: flex-end;
+    justify-content: space-around;
 }
 
 .content2 {
     margin: 20px;
     text-align: right;
-    font-size: 15pt;
+    font-size: 18pt;
 }
 
 .img2 {
-    float: right;
     padding: 10px;
 }
 
-.pressme {
-    display: inline-block;
-    background-color: blue;
-    color: darkgrey;
-    text-decoration: none;
-    color: aliceblue;
-}
-
-.pressme:hover {
-    color: red;
-    text-decoration: underline;
+.img2:hover {
     cursor: pointer
 }
 
-.pressme:active {
-    color: darkblue;
+.bd2 {
+    background-color: lightcyan;
+    font-family: 'Caveat', cursive;
 }
+
+.compbody1 {
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.h11 {
+    font-size: 60pt;
+    text-shadow: 2px 2px 5px red;
+    text-align: center;
+    margin: 40px;
+    padding: 30px;
+}
+
+.txt2 {
+    font-size: 35pt;
+    text-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px darkblue;
+    padding: 20px;
+    margin: 10px;
+}
+
+.deta1 {
+    font-size: 20pt;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+.img3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.txt3 {
+    text-align: center;
+    color: blue;
+    font-size: 30pt;
+}
+
+.li22 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    list-style: none;
+}
+
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -75,3 +113,18 @@ body {
 @media only screen and (max-width : 320px) {
     /* Styles */
 }
+
+
+/*.pressme {
+    display: inline-block;
+    margin-block-start: 130px;
+    background-color: blue;
+    color: darkgrey;
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 15px;
+}*/
+
+/*.txtprme:active {
+    color: darkblue;
+}*/
