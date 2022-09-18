@@ -58,7 +58,7 @@
 }
 
 .h11 {
-    font-size: 60pt;
+    font-size: 70pt;
     text-shadow: 2px 2px 5px red;
     text-align: center;
     margin: 40px;
@@ -66,16 +66,19 @@
 }
 
 .txt2 {
-    font-size: 35pt;
+    font-size: 45pt;
     text-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px darkblue;
     padding: 20px;
     margin: 10px;
 }
 
 .deta1 {
-    font-size: 20pt;
     margin-left: 50px;
     padding: 20px;
+}
+
+.h312 {
+    font-size: 32px;
 }
 
 .img3 {
@@ -96,7 +99,9 @@
     justify-content: space-evenly;
     margin-top: 30px;
     list-style: none;
+    font-size: 32px;
 }
+
 
 
 /* Smartphones (portrait and landscape) ----------- */
