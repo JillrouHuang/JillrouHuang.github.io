@@ -1,3 +1,4 @@
+/** index.html **/
 .bd1 {
     background-color: rgb(232, 243, 247);
     font-family: 'Ubuntu', sans-serif;
@@ -45,12 +46,14 @@
     cursor: pointer
 }
 
+
+/** comparison.html **/
 .bd2 {
     background-color: lightcyan;
     font-family: 'Caveat', cursive;
 }
 
-.compbody1 {
+.compbody {
     margin: 2px;
     padding: 2px;
     display: flex;
@@ -61,15 +64,16 @@
     font-size: 70pt;
     text-shadow: 2px 2px 5px red;
     text-align: center;
-    margin: 40px;
-    padding: 30px;
+    margin-top: 70px;
+    padding: 20px;
 }
 
 .txt2 {
     font-size: 45pt;
     text-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px darkblue;
     padding: 20px;
-    margin: 10px;
+    margin-top: 70px;
+    margin-left: 20px;
 }
 
 .deta1 {
@@ -85,7 +89,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .txt3 {
@@ -100,6 +104,16 @@
     margin-top: 30px;
     list-style: none;
     font-size: 32px;
+}
+
+.imgdis {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.txtonly {
+    margin-top: 50px;
 }
 
 
